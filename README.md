@@ -51,7 +51,7 @@ Get up and running in 5 minutes:
 npm install
 
 # 2. Setup environment
-cp .env.example .env
+cp .env
 # Edit .env with your MongoDB URI
 
 # 3. Start development server
