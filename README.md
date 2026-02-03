@@ -47,7 +47,8 @@ This backend provides a complete REST API for managing users and their expenses.
 Get up and running in 5 minutes:
 
 ```bash
-# 1. Install dependencies
+# 1. Install dependencies in backend folder
+cd backend
 npm install
 
 # 2. Setup environment
