@@ -51,9 +51,17 @@ Get up and running in 5 minutes:
 cd backend
 npm install
 
-# 2. Setup environment
+# 2. Setup environment(mentioned below all variables)
+NODE_ENV=development
+PORT=5000
+HOST=localhost
+API_VERSION=v1
+LOG_LEVEL=debug
+MONGODB_URL=mongodb+srv://username:password@cluster0.mongodb.net.....
+
 cp .env
-# Edit .env with your MongoDB URI
+
+# Edit .env with your Mongodb url
 
 # 3. Start development server
 npm run dev
