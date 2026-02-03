@@ -238,6 +238,7 @@ If you see "Server is healthy" in the logs, you're connected! ✅
 ---
 
 ## API Documentation
+(Before testing the api , I have created script for your ease to populate database ,located in backend/scripts/database_populator.ts)
 
 ### Base URL
 
