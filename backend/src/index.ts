@@ -62,7 +62,7 @@ const startServer = async (): Promise<void> => {
       );
     });
 
-    // 6. Graceful Shutdown (Industry Best Practice)
+    // Graceful Shutdown 
     const gracefulShutdown = async (signal: string): Promise<void> => {
       logger.info(`[${signal}] Shutting down gracefully...`);
       server.close(async () => {
